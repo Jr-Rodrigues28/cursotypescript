@@ -14,3 +14,7 @@ pra rodar o coderunner localmente é assim: "typescript": "npx ts-node --files",
 npx tsc --init  para gerar um tsconfig.json válido e funcionou (mantendo as configurações do professor também).
 
 npx tsc -w  = Pra visualizar localmente
+
+## Rodar o Biome
+
+`node --watch --watch-preserve-output --watch-path=. biome-dev.mjs` ou `npm run biome`
